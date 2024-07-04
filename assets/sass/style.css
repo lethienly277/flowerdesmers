@@ -205,7 +205,9 @@ img {
 .wpo-box-style {
     padding: 0 100px;
 }
-
+.slide-inner.slide-bg-image {
+    background-position-y: bottom !important;
+}
 @media (max-width: 1700px) {
     .wpo-box-style {
         padding: 0 30px;
@@ -7023,7 +7025,7 @@ a.ui-button:active,
 
 .wpo-hero-slider-s3 {
     height: 100vh;
-    min-height: 950px;
+    min-height: 900px;
 }
 
 @media (max-width: 1199px) {
@@ -7117,6 +7119,9 @@ a.ui-button:active,
 @media (max-width: 1700px) {
     .wpo-hero-slider-s3 .hero-inner-text {
         padding: 75px 30px;
+    }
+    .wpo-hero-slider-s3 {
+        min-height: 750px;
     }
 }
 
