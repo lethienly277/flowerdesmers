@@ -974,7 +974,6 @@ a.ui-button:active,
 }
 
 .wpo-page-title {
-    background: url(../images/anhnensubpage.jpg) no-repeat center top/cover;
     min-height: 700px;
     position: relative;
     display: -webkit-box;
@@ -989,7 +988,9 @@ a.ui-button:active,
     flex-direction: column;
     z-index: 1;
 }
-
+.wpo-page-title.about-us-image {
+    background: url(../images/anhnenaboutus.png) no-repeat center top/cover;
+}
 @media (max-width: 767px) {
     .wpo-page-title {
         min-height: 250px;
@@ -7539,7 +7540,7 @@ a.ui-button:active,
 
 .wpo-site-footer p,
 .wpo-site-footer-s2 p {
-    color: #fff;
+    color: #333566;
 }
 
 .wpo-site-footer li,
@@ -7557,6 +7558,8 @@ a.ui-button:active,
     padding: 120px 0px;
     position: relative;
     z-index: 1;
+    background-image: url("../images/slider/5.jpg");
+    background-position-y: -135px;
 }
 
 @media (max-width: 991px) {
@@ -7611,7 +7614,7 @@ a.ui-button:active,
     font-weight: 400;
     font-size: 60px;
     line-height: 37px;
-    color: #fff;
+    color: #333566;
     margin: 0;
     position: relative;
     font-family: "Callem";
@@ -7633,7 +7636,7 @@ a.ui-button:active,
 .wpo-site-footer-s2 .about-widget .logo {
     font-size: 60px;
     font-family: "Callem", cursive;
-    color: #fff;
+    color: #333566;
     line-height: 40px;
 }
 
@@ -7770,7 +7773,7 @@ a.ui-button:active,
 
 .wpo-site-footer .link-widget ul li a,
 .wpo-site-footer-s2 .link-widget ul li a {
-    color: #fff;
+    color: #333566;
     font-size: 18px;
 }
 
@@ -7847,7 +7850,7 @@ a.ui-button:active,
 
 .wpo-site-footer .wpo-lower-footer .row,
 .wpo-site-footer-s2 .wpo-lower-footer .row {
-    padding: 0px 0 20px;
+    padding: 20px 0 20px;
     position: relative;
 }
 
@@ -8657,7 +8660,7 @@ a.ui-button:active,
     position: relative;
     padding-top: 10px;
     overflow: hidden;
-    padding-bottom: 60px;
+    padding-bottom: 4px;
 }
 
 .wpo-portfolio-section::before,
@@ -8878,7 +8881,7 @@ a.ui-button:active,
 
 .wpo-portfolio-section .grid,
 .wpo-portfolio-section-s2 .grid {
-    padding: 15px;
+    padding: 4px;
     background: #fff;
 }
 
@@ -8938,7 +8941,7 @@ a.ui-button:active,
 
 .wpo-portfolio-section.pt-120,
 .wpo-portfolio-section-s2.pt-120 {
-    padding-top: 120px;
+    padding-top: 4px;
 }
 
 @media (max-width: 991px) {
@@ -13744,7 +13747,7 @@ a.ui-button:active,
 }
 
 .wpo-portfolio-section-s2 .container-fluid {
-    padding: 0 15px;
+    padding: 0 0px;
 }
 
 @media (max-width: 1199px) {
@@ -14800,6 +14803,7 @@ a.ui-button:active,
     padding: 3px;
     -webkit-transition: all .3s;
     transition: all .3s;
+    opacity: 0.5;
 }
 .portfolio-content h4 {
     font-family: "Belleza", sans-serif;
@@ -26969,6 +26973,10 @@ a.ui-button:active,
 .color7 .pagination-wrapper .pg-pagination li a:hover,
 .color7 .wpo-pricing-section .wpo-pricing-wrap .wpo-pricing-item .wpo-pricing-bottom .wpo-pricing-bottom-text .view-cart-btn:hover {
     background: #18A7B5;
+}
+
+.color7 .wpo-header-style-4 .navigation.sticky-on {
+    background-image: url("../images/slider/2.jpg");
 }
 
 .color7 .wpo-story-section-s4 .story-timeline:after,
