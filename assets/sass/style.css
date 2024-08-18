@@ -143,6 +143,30 @@ Version:        1.0.0
     font-family: "Callem";
     src: url("../fonts/Callem Script.ttf") format("truetype");
 }
+
+.playfair-display {
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600 !important;
+}
+.old-standard-tt-regular {
+    font-family: "Old Standard TT", serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.old-standard-tt-bold {
+    font-family: "Old Standard TT", serif !important;
+    font-weight: 700 !important;
+    font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+    font-family: "Old Standard TT", serif !important;
+    font-weight: 400;
+    font-style: italic;
+}
 html {
     font-size: 15px;
 }
@@ -3482,8 +3506,8 @@ a.ui-button:active,
 }
 
 .wpo-header-style-4 #navbar>ul>li>a {
-    color: #fff;
-    text-shadow: 1px 1px 5px #000;
+    color: #49597c;
+    font-weight: 600;
 }
 
 @media (min-width: 991px) {
@@ -7217,7 +7241,7 @@ a.ui-button:active,
 }
 
 .wpo-hero-slider-s3 .hero-inner-text .social li a:hover {
-    background: #657150;
+    background: #49597c;
     color: #fff;
 }
 
@@ -15981,7 +16005,7 @@ a.ui-button:active,
 
 .wpo-about-section .wpo-about-wrap .wpo-about-text,
 .wpo-about-section-s2 .wpo-about-wrap .wpo-about-text {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 @media (max-width: 991px) {
