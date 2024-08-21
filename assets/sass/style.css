@@ -23450,12 +23450,12 @@ a.ui-button:active,
 }
 
 .wpo-contact-pg-section .office-info {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
     .wpo-contact-pg-section .office-info {
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
 }
 
